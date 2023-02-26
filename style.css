@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.mar{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    width: 100%;
+    height:100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(banner.png);
+}
+.logo{
+    width: 14%;
+    height: 8%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+.navlist{
+    display: flex;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.navlist li{
+    list-style: none;
+    margin-left: 80px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+.navlist li a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    transition: 0.5s;
+}
+.navlist li a:hover::after{
+    width: 50%;
+    background-color: rgb(193, 41, 41);
+    margin-left: 10px;
+}
+.text{
+    text-align: center;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text h1{
+    color: white;
+    font-size: 3rem;
+}
+.text p{
+    font-size: 1rem;
+    margin: 1% 5%;
+    color: white;
+}
+.btn{
+    font-size: 1.2rem;
+    background: transparent;
+    border: 2px solid white;
+    padding: 5px 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: rgb(193, 41, 41);
+    border: 2px solid rgb(193, 41, 41);
+}
+.courses{
+    text-align: center;
+}
+.courses > h1{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.coursebox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 2vw;
+}
+.firstcourse{
+    background-color: rgba(245,222,179,0.5);
+    width: 30vw;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.secondcourse{
+    background-color: rgba(245,222,179,0.5);
+    width: 30vw;
+    margin: 20px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.thirdcourse{
+    background-color: rgba(245,222,179,0.5);
+    width: 30vw;
+    margin: 20px 10px;
+    padding: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.firstcourse:hover{
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.secondcourse:hover{
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.thirdcourse:hover{
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.campuses{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+.campuses > h1{
+    font-size:3rem;
+    margin: 30px auto;
+}
+.campusbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.campusbox img{
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.firstdiv{
+    display: flex;
+    position: relative;
+    
+}
+.firstdiv h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.seconddiv{
+    display: flex;
+    position: relative;
+    
+}
+.seconddiv h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.thirddiv{
+    display: flex;
+    position: relative;
+}
+.thirddiv h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.firstdiv:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+.seconddiv:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+.thirddiv:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.facilities{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+
+}
+.facilities > h1{
+    font-size:3rem;
+    margin: 30px auto;
+}
+.facilitybox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.facilitybox img{
+    width: 30vw;
+    height: 60vh;
+    border-radius: 20px;
+}
+.firstfacility{
+    display: flex;
+    position: relative;
+    
+}
+.firstfacility h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.secondfacility{
+    display: flex;
+    position: relative;
+    
+}
+.secondfacility h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.thirdfacility{
+    display: flex;
+    position: relative;
+}
+.thirdfacility h3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2.3rem;
+}
+.firstfacility:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+.secondfacility:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+.thirdfacility:hover h3{
+    background: linear-gradient(transparent,rgba(193, 41, 41,0.7));
+    cursor: pointer;
+}
+.contact{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(banner2.jpg);
+}
+.contact h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15vh;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin: 20px 10vw;
+    border-radius: 10px;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+form textarea{
+    margin: 20px 10vw;
+    border-radius: 10px;
+    background: transparent;
+    padding: 5px;
+    border: 2px solid #fff;
+    color: #fff;
+}
